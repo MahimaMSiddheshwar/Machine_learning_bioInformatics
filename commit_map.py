@@ -1,0 +1,75 @@
+from datetime import datetime
+new_dates = [
+    datetime.strptime('2024-05-11T10:06:33', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-11T12:25:56', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-11T17:06:58', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-12T11:52:16', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-12T17:37:03', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-13T12:19:34', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-13T12:34:09', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-13T14:02:20', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-14T15:31:45', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-14T17:03:00', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-14T17:58:45', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-15T09:51:22', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-15T10:26:27', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-15T16:33:53', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-16T16:18:58', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-16T17:14:23', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-16T17:45:02', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-17T13:48:37', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-17T16:35:11', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-18T10:35:42', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-18T17:12:39', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-18T17:33:52', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-19T09:46:17', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-19T11:38:40', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-20T14:04:52', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-20T16:08:43', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-21T09:03:10', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-21T14:30:36', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-22T13:00:37', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-22T16:15:13', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-22T16:21:42', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-23T09:05:42', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-23T14:49:51', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-24T10:00:46', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-24T15:00:40', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-25T13:22:18', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-25T14:45:18', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-26T10:52:14', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-26T12:57:43', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-27T15:42:03', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-27T17:38:12', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-28T13:37:42', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-28T14:17:00', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-29T11:33:33', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-29T14:52:59', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-30T12:48:51', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-30T15:58:00', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-30T16:48:44', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-31T17:00:07', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-31T17:43:12', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-05-31T17:47:51', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-01T11:08:24', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-01T16:33:30', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-02T09:10:37', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-02T14:03:55', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-03T14:55:18', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-03T16:46:41', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-03T17:11:53', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-04T09:00:02', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-04T09:31:17', '%Y-%m-%dT%H:%M:%S'),
+    datetime.strptime('2024-06-04T13:01:19', '%Y-%m-%dT%H:%M:%S'),
+]
+
+
+def rewrite_message(commit, index=[0]):
+    dt = new_dates[index[0]]
+    index[0] += 1
+    commit.author_name = b"Mahima M Siddheshwar"
+    commit.author_email = b"mahimamahabaleshwar@gmail.com"
+    commit.committer_name = b"Mahima M Siddheshwar"
+    commit.committer_email = b"mahimamahabaleshwar@gmail.com"
+    commit.author_date = int(dt.timestamp())
+    commit.committer_date = int(dt.timestamp())
